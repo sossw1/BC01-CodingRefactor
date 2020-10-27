@@ -19,8 +19,8 @@ header h1 {
     display: inline-block;
     font-size: 48px;
 }
-/*Changed to type selector, removed combinator selector*/
-.seo {
+/*Changed to id selector*/
+#seo {
     color: #d9dcd6;
 }
 /*Changed to type selector*/
