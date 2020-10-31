@@ -16,5 +16,6 @@ https://sossw1.github.io/BC01-CodingRefactor/
 Repository:
 https://github.com/sossw1/BC01-CodingRefactor
 
-Preview:  
+## Preview
+ 
 ![Site Preview](./assets/images/site-preview.png)
