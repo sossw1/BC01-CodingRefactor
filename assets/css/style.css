@@ -1,8 +1,12 @@
+/* All */
+
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
+
+/* Tag Selectors */
 
 body {
     background-color: #d9dcd6;
@@ -18,10 +22,6 @@ header {
 h1 {
     display: inline-block;
     font-size: 48px;
-}
-
-#seo {
-    color: #d9dcd6;
 }
 
 nav {
@@ -50,6 +50,14 @@ p {
     font-size: 16px;
 }
 
+article {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/* Class Selectors */
+
 .hero {
     height: 800px;
     width: 100%;
@@ -67,12 +75,6 @@ p {
 .float-right {
     float: right;
     margin-left: 25px;
-}
-
-.content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
 }
 
 .benefits {
@@ -134,7 +136,7 @@ p {
     max-width: 150px;
 }
 
-.search-engine-optimization {
+section {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -143,47 +145,29 @@ p {
     color: #ffffff;
 }
 
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.search-engine-optimization img {
+#search-engine-optimization img {
     max-height: 200px;
 }
 
-.online-reputation-management img {
+#online-reputation-management img {
     max-height: 200px;
 }
 
-.social-media-marketing img {
+#social-media-marketing img {
     max-height: 200px;
 }
 
-.search-engine-optimization h2 {
+#search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-.online-reputation-management h2 {
+#online-reputation-management h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-.social-media-marketing h2 {
+#social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
@@ -197,4 +181,10 @@ p {
 
 .footer h2 {
     font-size: 20px;
+}
+
+/* ID Selectors */
+
+#seo {
+    color: #d9dcd6;
 }
